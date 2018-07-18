@@ -97,7 +97,7 @@ addJS('editInfos');
             <span class='fa fa-sign-out'></span> Déconnexion
         </a>
 
-		<button type="submit" id="valider_edit" class="boutonRond plein <?=(isset($_GET['edit'])) ? '' : 'hidden'?>">
+        <button type="submit" id="valider_edit" class="boutonRond plein <?=(isset($_GET['edit'])) ? '' : 'hidden'?>">
             <span class='fa fa-check'></span> Valider
         </button>
         <a href="?R=MonEspace" id="annuler_edit" class="boutonRond <?=(isset($_GET['edit'])) ? '' : 'hidden'?>">

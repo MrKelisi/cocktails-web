@@ -16,6 +16,7 @@ function afficherElementMenu($nom, $page, $icone, $actif = false) {
 <head>
 	<title>Cocktails</title>
 	<meta charset='utf-8'>
+	<meta name="robots" content="index nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#1de9b6">
 	<link rel="stylesheet" href="css/style.css">

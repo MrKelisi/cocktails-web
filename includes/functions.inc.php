@@ -53,7 +53,7 @@
 		$url_photo = "resources/Photos/".strtr($url_photo, ' ', '_').".jpg";
 		
 		if($boolRenvoyerImageParDefaut)
-			return file_exists($url_photo) ? $url_photo : "resources/Photos/none.jpg";
+			return file_exists($url_photo) ? $url_photo : "resources/images/none.jpg";
 		else
 			return file_exists($url_photo) ? $url_photo : "";
 	}
